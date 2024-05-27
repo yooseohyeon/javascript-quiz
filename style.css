@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	border: 0;
+	clip: rect(0 0 0 0);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, 
+input,
+textarea {
+  border: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+ul, 
+ol,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* CSS */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quiz-container {
+  align-items: center;
+  width: 800px;
+  height: 200px;
+  background-color: gray;
+}
+
+.quiz {
+  margin: 20px;
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.answers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.answer {
+  padding: 10px 100px;
+  background-color: aqua;
+}
+
+a {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: bisque;
+}
+
+.end {
+  display: none;
+  background-color: aquamarine;
+  cursor: default;
+}
