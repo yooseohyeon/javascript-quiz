@@ -1,4 +1,4 @@
-import { state } from './state.js';
+import { state } from './state/state.js';
 import { createFinish } from './spa.js'; // createFinish를 가져옴
 
 //퀴즈 어플리케이션을 초기화하는 함수

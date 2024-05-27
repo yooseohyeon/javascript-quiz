@@ -1,5 +1,5 @@
 import { initializeApp } from "./app.js";
-import { state } from './state.js';
+import { state } from './state/state.js';
 import second from "./components/second.js";
 import three from "./components/three.js";
 
